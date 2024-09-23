@@ -2,7 +2,7 @@
 title: "2024.09.11 River's attempt to code!!"
 ---
 ```{r}
-setwd("/Users/riversung/NTU/113-1 Fall 2024/Ocean5098 R/20240910 week 2")
+setwd("/Users/riversung/NTU/113-1 Fall 2024/Ocean5098 R/20240910 week 2/0911 testrepo")
 getwd()
 
 library(knitr)
@@ -15,16 +15,16 @@ library(formatR)
 ```
 
 ```{r eval = TRUE,  message=F, include=FALSE, warning=F, purl=F, results="hide"}
-knitr::purl('environment.Rmd', documentation = 0)
+knitr::purl('environment-river.Rmd', documentation = 0)
 ```
 
 
 ```{r echo=FALSE, purl=F}
-xfun::embed_file('environment.Rmd')
+xfun::embed_file('environment-river.Rmd')
 ```
 
 ```{r echo=FALSE, purl=F}
-xfun::embed_file('environment.R')
+xfun::embed_file('environment-river.Rmd')
 ```
 
 
